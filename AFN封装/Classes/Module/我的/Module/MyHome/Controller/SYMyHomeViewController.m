@@ -88,10 +88,9 @@
 - (void)setupTitlesView
 {
     //头部视图
-    SYMyHomeHeaderView *headerView =[SYMyHomeHeaderView myHomeHeaderView];
+    SYMyHomeHeaderView *headerView =[[SYMyHomeHeaderView alloc]initWithFrame:CGRectMake(0, 0, screenwidth, 150)];
    
     [self.view addSubview:headerView];
-    headerView.frame = CGRectMake(0, 0, screenwidth, 150);
 
     // 标题栏
     UIView *titlesView = [[UIView alloc] init];

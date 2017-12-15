@@ -18,7 +18,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    UIView *redView =[[UIView alloc]initWithFrame:CGRectMake(15, 100, 150, 150)];
+    UIView *redView =[[UIView alloc]initWithFrame:CGRectMake(15, 150 + 45, 150, 150)];
     redView.backgroundColor =[UIColor purpleColor];
     [self.view addSubview:redView];
 }

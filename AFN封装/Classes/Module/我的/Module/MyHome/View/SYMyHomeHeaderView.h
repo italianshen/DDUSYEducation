@@ -12,11 +12,5 @@
 
 
 
-/**
- 工厂方法
-
- @return 头部视图
- */
-+(instancetype)myHomeHeaderView;
 
 @end

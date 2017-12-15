@@ -65,6 +65,7 @@
     _nameLabel.textColor =[UIColor colorWithHexString:@"#333"];
     [_nameLabel sizeToFit];
     _nameLabel.font =[UIFont systemFontOfSize:14];
+    _nameLabel.text = @"会飞的猪";
     [self addSubview:_nameLabel];
     
     
@@ -75,6 +76,8 @@
     [_fansNumBtn setTitle:@" 粉丝: 30 " forState:UIControlStateNormal];
     _fansNumBtn.backgroundColor=[[UIColor colorWithHexString:@"#000000"]colorWithAlphaComponent:0.5];
     [_fansNumBtn sizeToFit];
+    _fansNumBtn.layer.cornerRadius = 3.0;
+    _fansNumBtn.layer.masksToBounds = YES;
     [self addSubview:_fansNumBtn];
     
     _attentionNumBtn =[[UIButton alloc]init];
@@ -83,6 +86,8 @@
     [_attentionNumBtn setTitle:@" 关注: 30 " forState:UIControlStateNormal];
     _attentionNumBtn.backgroundColor=[[UIColor colorWithHexString:@"#000000"]colorWithAlphaComponent:0.5];
     [_attentionNumBtn sizeToFit];
+    _attentionNumBtn.layer.cornerRadius = 3.0;
+    _attentionNumBtn.layer.masksToBounds = YES;
     [self addSubview:_attentionNumBtn];
     
     [_backgroundImageView mas_makeConstraints:^(MASConstraintMaker *make) {
@@ -108,20 +113,12 @@
     }];
     
     [_attentionNumBtn mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.trailing.mas_equalTo(self.centerX).offset(25);
+        make.leading.mas_equalTo(self.centerX).offset(25);
         make.bottom.mas_equalTo(self).offset(-10);
     }];
     
 }
 
-/**
- 工厂方法
- 
- @return 头部视图
- */
-+(instancetype)myHomeHeaderView{
-    
-    return [[[NSBundle mainBundle]loadNibNamed:@"SYMyHomeHeaderView" owner:self options:nil ]lastObject];
-}
+
 
 @end
