@@ -42,7 +42,11 @@
 		30469AFA1FE3D01A00675B0A /* DDUTittilesButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 30469AF91FE3D01A00675B0A /* DDUTittilesButton.m */; };
 		30469AFE1FE3D3EA00675B0A /* DDUNavgationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30469AFD1FE3D3EA00675B0A /* DDUNavgationController.m */; };
 		30469B011FE3DA6C00675B0A /* SYMyHomeHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 30469B001FE3DA6C00675B0A /* SYMyHomeHeaderView.m */; };
-		30469B031FE3DAAC00675B0A /* SYMyHomeHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30469B021FE3DAAC00675B0A /* SYMyHomeHeaderView.xib */; };
+		304EAA2B1FE40D6800D084D9 /* SYTopicCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 304EAA2A1FE40D6800D084D9 /* SYTopicCollectionViewCell.m */; };
+		304EAA2E1FE40D8500D084D9 /* SYTopicImageViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 304EAA2D1FE40D8500D084D9 /* SYTopicImageViewCell.m */; };
+		304EAA311FE40F3C00D084D9 /* SYTopicCollectionTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 304EAA301FE40F3C00D084D9 /* SYTopicCollectionTopView.m */; };
+		304EAA341FE40F6E00D084D9 /* SYTopicCollectionBottomToolBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 304EAA331FE40F6E00D084D9 /* SYTopicCollectionBottomToolBarView.m */; };
+		304EAA371FE40F8500D084D9 /* GTleftIconBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 304EAA361FE40F8500D084D9 /* GTleftIconBtn.m */; };
 		30A989001FE3B9FC005A11E7 /* DDUProfileModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 30A988FF1FE3B9FC005A11E7 /* DDUProfileModel.m */; };
 		30A9891C1FE3BEBA005A11E7 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 30A989021FE3BEBA005A11E7 /* Info.plist */; };
 		30A9891D1FE3BEBA005A11E7 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 30A989041FE3BEBA005A11E7 /* MASCompositeConstraint.m */; };
@@ -340,7 +344,16 @@
 		30469AFD1FE3D3EA00675B0A /* DDUNavgationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDUNavgationController.m; sourceTree = "<group>"; };
 		30469AFF1FE3DA6C00675B0A /* SYMyHomeHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYMyHomeHeaderView.h; sourceTree = "<group>"; };
 		30469B001FE3DA6C00675B0A /* SYMyHomeHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYMyHomeHeaderView.m; sourceTree = "<group>"; };
-		30469B021FE3DAAC00675B0A /* SYMyHomeHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SYMyHomeHeaderView.xib; sourceTree = "<group>"; };
+		304EAA291FE40D6800D084D9 /* SYTopicCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYTopicCollectionViewCell.h; sourceTree = "<group>"; };
+		304EAA2A1FE40D6800D084D9 /* SYTopicCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYTopicCollectionViewCell.m; sourceTree = "<group>"; };
+		304EAA2C1FE40D8500D084D9 /* SYTopicImageViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYTopicImageViewCell.h; sourceTree = "<group>"; };
+		304EAA2D1FE40D8500D084D9 /* SYTopicImageViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYTopicImageViewCell.m; sourceTree = "<group>"; };
+		304EAA2F1FE40F3C00D084D9 /* SYTopicCollectionTopView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYTopicCollectionTopView.h; sourceTree = "<group>"; };
+		304EAA301FE40F3C00D084D9 /* SYTopicCollectionTopView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYTopicCollectionTopView.m; sourceTree = "<group>"; };
+		304EAA321FE40F6E00D084D9 /* SYTopicCollectionBottomToolBarView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYTopicCollectionBottomToolBarView.h; sourceTree = "<group>"; };
+		304EAA331FE40F6E00D084D9 /* SYTopicCollectionBottomToolBarView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYTopicCollectionBottomToolBarView.m; sourceTree = "<group>"; };
+		304EAA351FE40F8500D084D9 /* GTleftIconBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTleftIconBtn.h; sourceTree = "<group>"; };
+		304EAA361FE40F8500D084D9 /* GTleftIconBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTleftIconBtn.m; sourceTree = "<group>"; };
 		30A988FE1FE3B9FB005A11E7 /* DDUProfileModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDUProfileModel.h; sourceTree = "<group>"; };
 		30A988FF1FE3B9FC005A11E7 /* DDUProfileModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDUProfileModel.m; sourceTree = "<group>"; };
 		30A989021FE3BEBA005A11E7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -1043,6 +1056,23 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
+		304EAA281FE40CAB00D084D9 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				304EAA291FE40D6800D084D9 /* SYTopicCollectionViewCell.h */,
+				304EAA2A1FE40D6800D084D9 /* SYTopicCollectionViewCell.m */,
+				304EAA2C1FE40D8500D084D9 /* SYTopicImageViewCell.h */,
+				304EAA2D1FE40D8500D084D9 /* SYTopicImageViewCell.m */,
+				304EAA2F1FE40F3C00D084D9 /* SYTopicCollectionTopView.h */,
+				304EAA301FE40F3C00D084D9 /* SYTopicCollectionTopView.m */,
+				304EAA321FE40F6E00D084D9 /* SYTopicCollectionBottomToolBarView.h */,
+				304EAA331FE40F6E00D084D9 /* SYTopicCollectionBottomToolBarView.m */,
+				304EAA351FE40F8500D084D9 /* GTleftIconBtn.h */,
+				304EAA361FE40F8500D084D9 /* GTleftIconBtn.m */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		30A989011FE3BEBA005A11E7 /* Masonry */ = {
 			isa = PBXGroup;
 			children = (
@@ -1116,13 +1146,13 @@
 		30A989301FE3C81F005A11E7 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				304EAA281FE40CAB00D084D9 /* Cells */,
 				30A989471FE3CB6B005A11E7 /* SYMyHomeTabView.h */,
 				30A989481FE3CB6B005A11E7 /* SYMyHomeTabView.m */,
 				30469AF81FE3D01A00675B0A /* DDUTittilesButton.h */,
 				30469AF91FE3D01A00675B0A /* DDUTittilesButton.m */,
 				30469AFF1FE3DA6C00675B0A /* SYMyHomeHeaderView.h */,
 				30469B001FE3DA6C00675B0A /* SYMyHomeHeaderView.m */,
-				30469B021FE3DAAC00675B0A /* SYMyHomeHeaderView.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -2398,7 +2428,6 @@
 				B11A50D41FDE530C00D935E5 /* 16.jpg in Resources */,
 				B11A51851FDE5C6000D935E5 /* upIcon.png in Resources */,
 				30E4E8F01FE3B6F400D8D598 /* SYProfileTableViewCell.xib in Resources */,
-				30469B031FE3DAAC00675B0A /* SYMyHomeHeaderView.xib in Resources */,
 				B11A50FB1FDE530C00D935E5 /* pic7.jpg in Resources */,
 				B11A50D61FDE530C00D935E5 /* 18.jpg in Resources */,
 				B11A51231FDE530C00D935E5 /* bank.plist in Resources */,
@@ -2536,6 +2565,7 @@
 				30A989431FE3CAD4005A11E7 /* SYMessageViewController.m in Sources */,
 				B11A50A91FDE530C00D935E5 /* SDBaseRefreshView.m in Sources */,
 				B11A50AD1FDE530C00D935E5 /* SDChatTableViewController.m in Sources */,
+				304EAA311FE40F3C00D084D9 /* SYTopicCollectionTopView.m in Sources */,
 				30A989261FE3BEBA005A11E7 /* ViewController+MASAdditions.m in Sources */,
 				B11A51541FDE530C00D935E5 /* SDWebImagePrefetcher.m in Sources */,
 				248F4EA31BDA7C3A003CCF4A /* MHNetworkManager.m in Sources */,
@@ -2546,6 +2576,7 @@
 				B11A51291FDE530C00D935E5 /* TAAbstractDotView.m in Sources */,
 				B11A51571FDE530C00D935E5 /* UIImage+MultiFormat.m in Sources */,
 				B11A51531FDE530C00D935E5 /* SDWebImageManager.m in Sources */,
+				304EAA2B1FE40D6800D084D9 /* SYTopicCollectionViewCell.m in Sources */,
 				24393B671BDA525500626923 /* ViewController.m in Sources */,
 				30A9895E1FE3CC94005A11E7 /* Foundation+Log.m in Sources */,
 				B11A50AF1FDE530C00D935E5 /* SDSimpleCell.m in Sources */,
@@ -2586,6 +2617,7 @@
 				30A989491FE3CB6B005A11E7 /* SYMyHomeTabView.m in Sources */,
 				24A0D0901C0DF56200CE1D9B /* UIActivityIndicatorView+AFNetworking.m in Sources */,
 				B11A514B1FDE530C00D935E5 /* UIView+SDExtension.m in Sources */,
+				304EAA2E1FE40D8500D084D9 /* SYTopicImageViewCell.m in Sources */,
 				30A989661FE3CC94005A11E7 /* UIView+DCPagerFrame.m in Sources */,
 				B11A51551FDE530C00D935E5 /* UIButton+WebCache.m in Sources */,
 				B11A51491FDE530C00D935E5 /* SDRefreshHeaderView.m in Sources */,
@@ -2600,6 +2632,7 @@
 				B11A512F1FDE530C00D935E5 /* UIView+SDExtension.m in Sources */,
 				B11A51281FDE530C00D935E5 /* YGPublicParameter.m in Sources */,
 				B11A51171FDE530C00D935E5 /* HMSaveDataTool.m in Sources */,
+				304EAA371FE40F8500D084D9 /* GTleftIconBtn.m in Sources */,
 				B11A51681FDE535A00D935E5 /* UIColor+_Hex.m in Sources */,
 				B11A511D1FDE530C00D935E5 /* UIView+NFLayout.m in Sources */,
 				30A989601FE3CC94005A11E7 /* NSDate+GTExtension.m in Sources */,
@@ -2660,6 +2693,7 @@
 				B11A50BE1FDE530C00D935E5 /* XWMoneyTextField.m in Sources */,
 				B11A50B61FDE530C00D935E5 /* SDTimeLineCell.m in Sources */,
 				B11A51441FDE530C00D935E5 /* SDBrowserImageView.m in Sources */,
+				304EAA341FE40F6E00D084D9 /* SYTopicCollectionBottomToolBarView.m in Sources */,
 				B11A50AC1FDE530C00D935E5 /* SDChatModel.m in Sources */,
 				B11A51481FDE530C00D935E5 /* SDRefreshFooterView.m in Sources */,
 				B11A51201FDE530C00D935E5 /* NewFeatureImageV.m in Sources */,
