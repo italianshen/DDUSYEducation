@@ -102,7 +102,6 @@
     [_likeBtn mas_makeConstraints:^(MASConstraintMaker *make) {
         make.leading.mas_equalTo(self).offset(15);
         make.centerY.mas_equalTo(self);
-//        make.height.mas_equalTo(22);
     }];
     
     [_commentBtn mas_makeConstraints:^(MASConstraintMaker *make) {
