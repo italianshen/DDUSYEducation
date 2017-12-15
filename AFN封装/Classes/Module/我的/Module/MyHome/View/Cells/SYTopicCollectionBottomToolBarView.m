@@ -52,6 +52,7 @@
 #pragma mark - UI
 - (void)setUpUI
 {
+    self.backgroundColor =[UIColor whiteColor];
 //    _likeBtn
     
     _likeBtn =[GTleftIconBtn buttonWithType:UIButtonTypeCustom];

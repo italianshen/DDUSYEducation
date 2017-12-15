@@ -54,7 +54,6 @@
 
 -(void)setupChildViewControllers{
     SYTopicViewController *topic =[[SYTopicViewController alloc]init];
-//    topic.view.backgroundColor = randomColor;
     [self addChildViewController:topic];
     
     
@@ -173,7 +172,7 @@
     UIViewController *childVc = self.childViewControllers[index];
     if ([childVc isViewLoaded]) return;
     
-    childVc.view.frame = self.scrollView.bounds;
+    childVc.view.frame = CGRectMake(0, CGRectGetMaxY(self.titlesView.frame), screenwidth, screenheight -CGRectGetMaxY(self.titlesView.frame));
     [self.scrollView addSubview:childVc.view];
 }
 
