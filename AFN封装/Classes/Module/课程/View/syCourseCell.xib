@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="syCourseCell">
+            <rect key="frame" x="0.0" y="0.0" width="188" height="197"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="188" height="197"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="矢量智能对象-拷贝" translatesAutoresizingMaskIntoConstraints="NO" id="NMa-qg-d6c">
+                        <rect key="frame" x="0.0" y="0.0" width="188" height="140"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="140" id="xd2-AO-qFQ"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="XXX课程" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vOV-d4-gvu">
+                        <rect key="frame" x="10" y="147" width="64.5" height="19.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="小明" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6he-kW-zin">
+                        <rect key="frame" x="10" y="171.5" width="29" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="化学" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iDy-eC-6eG">
+                        <rect key="frame" x="149" y="171.5" width="29" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.60784313725490191" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="vOV-d4-gvu" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="10" id="D6F-C4-DhV"/>
+                <constraint firstItem="NMa-qg-d6c" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="KB2-5S-nk3"/>
+                <constraint firstItem="vOV-d4-gvu" firstAttribute="top" secondItem="NMa-qg-d6c" secondAttribute="bottom" constant="7" id="KTV-kc-e40"/>
+                <constraint firstAttribute="trailing" secondItem="NMa-qg-d6c" secondAttribute="trailing" id="bIj-Yb-cQk"/>
+                <constraint firstItem="6he-kW-zin" firstAttribute="leading" secondItem="vOV-d4-gvu" secondAttribute="leading" id="fdm-51-VzQ"/>
+                <constraint firstItem="6he-kW-zin" firstAttribute="top" secondItem="vOV-d4-gvu" secondAttribute="bottom" constant="5" id="g8e-LV-bng"/>
+                <constraint firstAttribute="trailing" secondItem="iDy-eC-6eG" secondAttribute="trailing" constant="10" id="hSf-BR-dkl"/>
+                <constraint firstItem="iDy-eC-6eG" firstAttribute="centerY" secondItem="6he-kW-zin" secondAttribute="centerY" id="lAl-nL-GQb"/>
+                <constraint firstItem="NMa-qg-d6c" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="mA5-W8-GzT"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="SEy-5g-ep8"/>
+            <size key="customSize" width="188" height="197"/>
+            <point key="canvasLocation" x="94" y="125.5"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="矢量智能对象-拷贝" width="360" height="169"/>
+    </resources>
+</document>

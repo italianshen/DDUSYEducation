@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PlusViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view alpha="0.40000000000000002" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="D4N-e2-kdb">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qlK-sj-nkU">
+                    <rect key="frame" x="164" y="621" width="46" height="46"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="46" id="8pX-Xn-2O9"/>
+                        <constraint firstAttribute="width" constant="46" id="LSK-ss-tWx"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="18"/>
+                    <state key="normal" backgroundImage="camera_close_highlighted"/>
+                    <connections>
+                        <action selector="backBtnClick:" destination="-1" eventType="touchUpInside" id="7zK-ls-CTJ"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9qJ-72-oT1">
+                    <rect key="frame" x="164" y="505" width="46" height="46"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="46" id="3y9-Yh-fiO"/>
+                        <constraint firstAttribute="width" constant="46" id="uuZ-Lu-Zl9"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="wenzhang"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cL0-lr-iY3">
+                    <rect key="frame" x="260" y="555" width="46" height="46"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="46" id="TEs-qZ-ve3"/>
+                        <constraint firstAttribute="width" constant="46" id="YLh-jN-jd8"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="tupian"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZKG-3R-83s">
+                    <rect key="frame" x="68" y="555" width="46" height="46"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="46" id="GKe-2Q-WqT"/>
+                        <constraint firstAttribute="height" constant="46" id="oWW-Nu-qfa"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="xinwen"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="cL0-lr-iY3" firstAttribute="leading" secondItem="9qJ-72-oT1" secondAttribute="trailing" constant="50" id="3dm-Ul-tD1"/>
+                <constraint firstAttribute="trailing" secondItem="D4N-e2-kdb" secondAttribute="trailing" id="9jd-Tt-pil"/>
+                <constraint firstItem="cL0-lr-iY3" firstAttribute="centerY" secondItem="9qJ-72-oT1" secondAttribute="centerY" constant="50" id="JU5-NR-6OO"/>
+                <constraint firstAttribute="bottom" secondItem="D4N-e2-kdb" secondAttribute="bottom" id="K5R-Z0-KgP"/>
+                <constraint firstAttribute="bottom" secondItem="qlK-sj-nkU" secondAttribute="bottom" id="MWB-YD-r3e"/>
+                <constraint firstItem="9qJ-72-oT1" firstAttribute="leading" secondItem="ZKG-3R-83s" secondAttribute="trailing" constant="50" id="MzH-HO-uHu"/>
+                <constraint firstItem="qlK-sj-nkU" firstAttribute="top" secondItem="9qJ-72-oT1" secondAttribute="bottom" constant="70" id="YKX-LS-sJG"/>
+                <constraint firstItem="qlK-sj-nkU" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="eXk-0Y-WRm"/>
+                <constraint firstItem="D4N-e2-kdb" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="hTD-ZG-4km"/>
+                <constraint firstItem="D4N-e2-kdb" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="v7R-uL-bgC"/>
+                <constraint firstItem="ZKG-3R-83s" firstAttribute="centerY" secondItem="9qJ-72-oT1" secondAttribute="centerY" constant="50" id="wsY-ZI-tzk"/>
+                <constraint firstItem="9qJ-72-oT1" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="zLf-kL-mCb"/>
+            </constraints>
+            <point key="canvasLocation" x="412.5" y="330.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="camera_close_highlighted" width="30" height="30"/>
+        <image name="tupian" width="52" height="52"/>
+        <image name="wenzhang" width="52" height="52"/>
+        <image name="xinwen" width="52" height="52"/>
+    </resources>
+</document>
